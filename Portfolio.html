@@ -10,18 +10,79 @@
         <h1>Marcus' Important Information</h1>
         <caption>This is all the important information for me(maybe)</caption>
     </header>
-    <section>
-        <h1>
-            "About Me"
-        </h1>
-
-    </section>
-    <section>
-
-    </section>
-    <section>
-
-    </section>
-    <footer>
+    <main>
+        <section id="about">
+            <h1>
+                "About Me"
+            </h1>
+            <p>
+                Welcome to Marcus' page.  I am a 24 year old kitchen and bathroom remodeler who is aspiring for a good career in life!
+            </p>
+        </section>
+        <section id="skills">
+            <table border="5">
+                <caption>
+                    <strong>
+                        Marcus' Stats
+                    </strong>
+                </caption>
+                <tr>
+                    <th>Age</th>
+                    <th>Strength</th>
+                    <th>Dexterity</th>
+                    <th>Intelligence</th>
+                    <th>Luck</th>
+                    <th>Charisma</th>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td>3</td>
+                    <td>8</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>50</td>
+                    <td>35</td>
+                    <td>25</td>
+                    <td>4</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>50</td>
+                    <td>?</td>
+                    <td>?</td>
+                    <td>?</td>
+                    <td>?</td>
+                    <td>?</td>
+                </tr>
+            </table>
+        </section>
+        <section id="contact form">
+            <p>
+                Please feel free to contact me through email, phone call, or text: <em>mrvwarnert@gmail.com</em>; <em>(805)670-3376</em>
+            </p>
+            <form action="/submit" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <button type="submit">Submit</button>
+            </form>
+            <form action="/submit" method="POST">
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email">
+                <button type="submit">Submit</button>
+            </form>
+            <form action="/submit" method="POST">
+                <label for="message">Name:</label>
+                <textarea>id="email" name="email" rows="4" cols="50"</textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <footer>
+            <p>Thank you for reading my website.  Godspeed.</p>
+        </footer>
+    </main>
 </body>
 </html>
